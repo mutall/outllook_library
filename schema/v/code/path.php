@@ -94,7 +94,7 @@ class path{
     //Compile and return the properties. 
     return ['name'=>$name, 'size'=>$size, 'create_date'=>$create_date, 'modify_date'=>$modify_date];
 }   
-   function get_properties_test(string $path, string $name):Array /*={[index:string]:basic_value}*/{
+   function get_properties_sharon(string $path, string $name):Array /*={[index:string]:basic_value}*/{
     //
     //Handle directories
     if (!is_file($path)) return [
